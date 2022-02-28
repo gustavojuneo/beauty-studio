@@ -1,7 +1,7 @@
 import { createStitches, ScaleValue } from '@stitches/react'
 import { grayDark, purpleDark } from '@radix-ui/colors'
 
-export const { css, styled, globalCss } = createStitches({
+export const { css, styled, globalCss, getCssText } = createStitches({
   theme: {
     colors: {
       ...grayDark,
@@ -44,8 +44,8 @@ export const { css, styled, globalCss } = createStitches({
     },
 
     fonts: {
-      default: 'Roboto, sans-serif',
-      highlight: 'Roboto, sans-serif',
+      default: 'Open Sans, sans-serif',
+      highlight: 'Open Sans, sans-serif',
     },
     fontWeights: {
       regular: 'regular',
