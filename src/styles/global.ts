@@ -8,7 +8,7 @@ export const applyGlobalCss = globalCss({
   },
 
   body: {
-    backgroundColor: '$gray2',
+    backgroundColor: '$gray3',
     color: '$gray12',
     fontFamily: '$default',
   },

@@ -1,10 +1,11 @@
 import { createStitches, ScaleValue } from '@stitches/react'
-import { grayDark, purpleDark } from '@radix-ui/colors'
+import { gray, pink, purpleDark } from '@radix-ui/colors'
 
 export const { css, styled, globalCss, getCssText } = createStitches({
   theme: {
     colors: {
-      ...grayDark,
+      ...gray,
+      ...pink,
       ...purpleDark,
     },
 
