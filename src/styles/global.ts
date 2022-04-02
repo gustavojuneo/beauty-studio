@@ -11,5 +11,19 @@ export const applyGlobalCss = globalCss({
     backgroundColor: '$gray2',
     color: '$gray12',
     fontFamily: '$default',
+    height: '100vh',
+  },
+
+  '#__next': {
+    height: '100%',
+  },
+
+  h1: {
+    fontFamily: '$secondary',
+    fontWeight: '$regular',
+  },
+
+  strong: {
+    fontWeight: '$bold',
   },
 })
